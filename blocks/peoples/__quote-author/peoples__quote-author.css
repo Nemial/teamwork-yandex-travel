@@ -1,0 +1,14 @@
+.peoples__quote-author {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1281px) {
+  .peoples__quote-author {
+    font-size: 13px;
+
+  }
+}

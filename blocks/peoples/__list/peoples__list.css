@@ -1,0 +1,32 @@
+.peoples__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 143px;
+
+
+
+}
+
+@media screen and (max-width: 1281px) {
+  .peoples__list {
+    gap: 55px;
+    margin-top: 114px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .peoples__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .peoples__list {
+    grid-template-columns: 1fr;
+  }
+}
+

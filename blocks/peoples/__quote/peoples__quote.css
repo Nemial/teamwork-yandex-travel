@@ -1,0 +1,12 @@
+.peoples__quote {
+  margin: 0;
+  margin-inline: 0;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1281px) {
+  .peoples__quote {
+    margin-top: 20px;
+
+  }
+}

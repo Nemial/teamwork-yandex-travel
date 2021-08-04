@@ -1,0 +1,12 @@
+.peoples {
+  width: calc(100% - 170px);
+  margin: 170px auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1281px) {
+  .peoples {
+    width: calc(100% - 135px);
+    margin: 135px auto;
+  }
+}

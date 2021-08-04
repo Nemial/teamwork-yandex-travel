@@ -1,2 +1,24 @@
-@import url("../vendor/normalize.css");
-@import url("../blocks/page/page.css");
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/photo-grid/__image/_peplace_up/photo-grid__image_peplace_up.css);
+@import url(../blocks/photo-grid/__text-block/photo-grid__text-block.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../blocks/photo-grid/__description/photo-grid__description.css);
+
+@import url(../blocks/peoples/peoples.css);
+@import url(../blocks/rubric/rubric.css);
+@import url(../blocks/rubric/__name/rubric__name.css);
+@import url(../blocks/rubric/__title/rubric__title.css);
+@import url(../blocks/peoples/__list/peoples__list.css);
+@import url(../blocks/peoples/__list-item/peoples__list-item.css);
+@import url(../blocks/peoples/__quote-block/peoples__quote-block.css);
+@import url(../blocks/peoples/__quote-author/peoples__quote-author.css);
+@import url(../blocks/peoples/__quote/peoples__quote.css);
+@import url(../blocks/peoples/__quote-text/peoples__quote-text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

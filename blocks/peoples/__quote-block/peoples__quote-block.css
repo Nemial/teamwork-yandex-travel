@@ -1,0 +1,13 @@
+.peoples__quote-block {
+  margin: 0;
+  margin-inline: 0;
+}
+
+/* не получается без сдвига футера
+
+.peoples__quote-block:hover {
+  padding: 20px;
+  transform: scale(1.2);
+  background-color: #ffcc9930;
+  cursor: pointer;
+}

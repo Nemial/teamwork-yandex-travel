@@ -1,0 +1,30 @@
+.photo-grid__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.4;
+  width: 80%;
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .photo-grid__title {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .photo-grid__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    /*transform: translateY(-80px);
+    color: #ffcc99;*/
+
+  }
+}
+@media screen and (max-width: 400px) {
+  .photo-grid__image {
+    width: 90%;
+  }
+}

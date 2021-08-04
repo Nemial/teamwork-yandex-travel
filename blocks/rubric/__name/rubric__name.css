@@ -1,0 +1,14 @@
+.rubric__name {
+  margin: 0;
+  color: #ffcc99;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1281px) {
+  .rubric__name {
+    font-size: 13px;
+  }
+}
