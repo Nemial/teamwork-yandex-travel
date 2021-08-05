@@ -10,3 +10,10 @@
     margin: 135px auto;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .peoples {
+    width: calc(100% - 80px);
+    margin: 80px 40px;
+  }
+}

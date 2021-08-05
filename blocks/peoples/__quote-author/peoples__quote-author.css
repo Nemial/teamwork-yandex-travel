@@ -1,5 +1,7 @@
 .peoples__quote-author {
   margin: 0;
+  font-family: "Oswald", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   font-size: 15px;
   line-height: 1.6;
   font-weight: bold;
@@ -9,6 +11,5 @@
 @media screen and (max-width: 1281px) {
   .peoples__quote-author {
     font-size: 13px;
-
   }
 }

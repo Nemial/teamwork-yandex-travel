@@ -1,4 +1,5 @@
 .footer {
+  width: 100%;
   position: relative;
   background-color: #ffcc99;
   display: flex;
@@ -6,6 +7,4 @@
   min-height: 420px;
   max-height: 620px;
   justify-content: center;
-  height: 100vh;
-
 }

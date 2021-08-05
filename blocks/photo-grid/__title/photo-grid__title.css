@@ -4,13 +4,12 @@
   font-size: 32px;
   line-height: 1.4;
   width: 80%;
-
-
 }
 
 @media screen and (max-width: 900px) {
   .photo-grid__title {
     margin-top: 20px;
+    width: 90%;
   }
 }
 
@@ -18,13 +17,11 @@
   .photo-grid__title {
     margin-top: 0;
     margin-bottom: 20px;
-    /*transform: translateY(-80px);
-    color: #ffcc99;*/
-
   }
 }
-@media screen and (max-width: 400px) {
-  .photo-grid__image {
-    width: 90%;
+
+@media screen and (max-width: 500px) {
+  .photo-grid__title {
+    font-size: 26px;
   }
 }
