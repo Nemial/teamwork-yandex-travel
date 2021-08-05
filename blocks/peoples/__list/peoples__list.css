@@ -6,9 +6,6 @@
   padding: 0;
   list-style-type: none;
   margin-top: 143px;
-
-
-
 }
 
 @media screen and (max-width: 1281px) {
@@ -24,9 +21,16 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .peoples__list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 70%;
+    margin-top: 80px;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .peoples__list {
+    grid-template-columns: 100%;
+    margin-top: 60px;
+  }
+}
