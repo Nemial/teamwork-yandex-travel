@@ -1,0 +1,19 @@
+.header__links {
+  display: grid;
+  grid-template-columns: repeat(3, min-content) 1fr;
+  gap: 40px;
+}
+
+@media screen and (max-width: 870px) {
+  .header__links {
+    gap: 30px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .header__links {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+}
