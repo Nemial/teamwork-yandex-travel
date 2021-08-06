@@ -1,0 +1,16 @@
+.intro__image {
+  max-height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__image {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__image {
+    justify-self: start;
+    max-height: 200px;
+  }
+}

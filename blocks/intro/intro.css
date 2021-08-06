@@ -1,0 +1,20 @@
+.intro {
+  display: grid;
+  grid-template-columns: 57% 1fr;
+  margin: 40px auto 70px;
+  max-width: 1137px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    gap: 5%;
+    margin: 40px 45px 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    grid-template-columns: 1fr;
+    margin: 35px 35px 65px;
+  }
+}

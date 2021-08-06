@@ -1,0 +1,11 @@
+.intro__text {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: fit-content(690px);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    grid-template-columns: fit-content(460px);
+  }
+}
