@@ -5,6 +5,13 @@
   max-width: 1137px;
 }
 
+@media screen and (min-width: 1360px) {
+  .intro {
+    grid-template-columns: 85% 1fr;
+    margin: 40px 5% 70px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .intro {
     gap: 5%;
