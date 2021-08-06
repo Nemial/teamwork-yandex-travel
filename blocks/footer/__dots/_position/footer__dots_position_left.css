@@ -1,0 +1,15 @@
+.footer__dots_position_left {
+  left: 17%;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer__dots_position_left {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__dots_position_left {
+    left: 25%;
+  }
+}

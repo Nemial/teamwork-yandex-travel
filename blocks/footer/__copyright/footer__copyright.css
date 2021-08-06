@@ -1,12 +1,8 @@
 .footer__copyright {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0;
+  align-self: center;
+  font-size: small;
+  line-height: 2;
+  margin: 20px 0;
   text-align: center;
-}
-
-@media screen and (max-width: 400px) {
-  .footer__copyright {
-    font-size: 10vw;
-  }
+  z-index: 1;
 }

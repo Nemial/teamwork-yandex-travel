@@ -1,0 +1,15 @@
+.footer__dots {
+  position: absolute;
+  top: 50%;
+  width: 490px;
+  height: 460px;
+  margin-top: -245px;
+  margin-left: -230px;
+}
+
+@media screen and (max-width: 360px) {
+  .footer__dots {
+    display: none;
+    visibility: hidden;
+  }
+}

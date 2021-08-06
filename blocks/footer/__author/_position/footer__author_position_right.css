@@ -1,0 +1,16 @@
+.footer__author_position_right {
+  right: 14%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__author_position_right {
+    right: 18%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__author_position_right {
+    left: 19%;
+    top: 87%;
+  }
+}

@@ -31,3 +31,16 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__animated/footer__animated.css);
+@import url(../blocks/footer/__dots/footer__dots.css);
+@import url(../blocks/footer/__dots/_position/footer__dots_position_left.css);
+@import url(../blocks/footer/__dots/_position/footer__dots_position_right.css);
+@import url(../blocks/footer/__dots/_size/footer__dots_size_m.css);
+@import url(../blocks/footer/__dots/_size/footer__dots_size_s.css);
+@import url(../blocks/footer/__dots/_size/footer__dots_size_l.css);
+@import url(../blocks/footer/__photo-author/footer__photo-author.css);
+@import url(../blocks/footer/__photo-author/_position/footer__photo-author_position_left.css);
+@import url(../blocks/footer/__photo-author/_position/footer__photo-author_position_right.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__author/_position/footer__author_position_left.css);
+@import url(../blocks/footer/__author/_position/footer__author_position_right.css);

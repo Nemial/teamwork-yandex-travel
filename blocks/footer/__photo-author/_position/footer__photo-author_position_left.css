@@ -1,0 +1,16 @@
+.footer__photo-author_position_left {
+  left: 13%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__photo-author_position_left {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__photo-author_position_left {
+    left: calc(50% - 75px);
+    top: 10%;
+  }
+}
