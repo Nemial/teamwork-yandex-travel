@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 315px) {
   .intro__image {
     height: 250px;
     width: 250px;
