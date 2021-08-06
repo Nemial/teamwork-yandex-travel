@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 1360px) {
   .intro {
-    grid-template-columns: 85% 1fr;
+    grid-template-columns: 62% 1fr;
     margin: 40px 5% 70px;
   }
 }
