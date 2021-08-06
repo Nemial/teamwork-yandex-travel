@@ -1,16 +1,16 @@
 .rubric__title {
-  margin: 0;
-  font-weight: bold;
   font-size: 40px;
+  font-weight: bold;
   line-height: 1.4;
+  margin: 0;
   margin-top: 35px;
 }
 
 @media screen and (max-width: 1281px) {
   .rubric__title {
     font-size: 33px;
-    margin-top: 27px;
     line-height: 1.38;
+    margin-top: 27px;
   }
 }
 

@@ -1,10 +1,10 @@
 .rubric__name {
-  margin: 0;
+  color: #fc9;
   font-family: 'Oswald', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ffcc99;
   font-size: 15px;
   font-weight: bold;
   line-height: 1;
+  margin: 0;
   text-transform: uppercase;
 }
 
