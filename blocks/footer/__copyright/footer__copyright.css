@@ -1,7 +1,12 @@
 .footer__copyright {
-  align-self: center;
-  font-size: small;
-  line-height: 2;
+  font-size: 40px;
+  font-weight: bold;
   margin: 0;
   text-align: center;
+}
+
+@media screen and (max-width: 370px) {
+  .footer__copyright {
+    font-size: 25px;
+  }
 }
