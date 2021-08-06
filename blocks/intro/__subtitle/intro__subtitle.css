@@ -5,14 +5,20 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1360px) and (min-width: 601px) {
   .intro__subtitle {
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 421px) {
   .intro__subtitle {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .intro__subtitle {
+    font-size: 5vw;
   }
 }

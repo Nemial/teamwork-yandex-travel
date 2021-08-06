@@ -12,16 +12,16 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1222px) and (min-width: 754px) {
   .intro {
-    gap: 5%;
-    margin: 40px 45px 70px;
+    margin-left: 40px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 753px) {
   .intro {
+    gap: 25px;
     grid-template-columns: 1fr;
-    margin: 35px 35px 65px;
+    text-align: center;
   }
 }

@@ -6,3 +6,9 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 400px) {
+  .intro__title {
+    font-size: 3vw;
+  }
+}
