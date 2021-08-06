@@ -1,7 +1,8 @@
 .intro__title {
   align-self: end;
-  color: #f7d5b7;
-  font-size: 13px;
+  color: #ffcc99;
+  font-size: 15px;
   margin: 0;
   text-transform: uppercase;
+  font-family: 'Oswald', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
