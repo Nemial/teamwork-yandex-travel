@@ -1,8 +1,8 @@
 .photo-grid__title {
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.4;
   margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.4;
   width: 80%;
 }
 
@@ -15,8 +15,8 @@
 
 @media screen and (max-width: 700px) {
   .photo-grid__title {
-    margin-bottom: 20px;
     margin-top: 0;
+    margin-bottom: 20px;
   }
 }
 

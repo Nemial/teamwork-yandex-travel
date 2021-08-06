@@ -3,8 +3,21 @@
   width: 40%;
 }
 
+
 @media screen and (max-width: 900px) {
   .rubric {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .rubric {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rubric {
+    width: 100%;
   }
 }

@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
   .photo-grid__image_peplace_up {
-    grid-row-end: 4;
     grid-row-start: 3;
+    grid-row-end: 4;
   }
 }

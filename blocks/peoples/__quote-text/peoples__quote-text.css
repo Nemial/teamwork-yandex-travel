@@ -1,15 +1,19 @@
 .peoples__quote-text {
+  margin: 0;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
-  margin: 0;
-
 }
 
 @media screen and (max-width: 1281px) {
   .peoples__quote-text {
-    font-size: 13px;
     width: 99%;
+    font-size: 13px;
+  }
+}
 
+@media screen and (max-width: 1024px) {
+  .peoples__quote-text {
+    width: 90%;
   }
 }

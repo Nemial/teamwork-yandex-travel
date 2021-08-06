@@ -1,12 +1,11 @@
 .photo-grid {
-  background-color: #f2f2f2;
   display: grid;
+  background-color: #f2f2f2;
   grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 700px) {
   .photo-grid {
-    grid-auto-rows: minmax(300px, 1fr);
     grid-template-columns: 1fr;
   }
 }

@@ -1,19 +1,19 @@
 .peoples {
+  width: calc(100% - 170px);
   margin: 170px auto;
   position: relative;
-  width: calc(100% - 170px);
 }
 
 @media screen and (max-width: 1281px) {
   .peoples {
-    margin: 135px auto;
     width: calc(100% - 135px);
+    margin: 135px auto;
   }
 }
 
 @media screen and (max-width: 700px) {
   .peoples {
-    margin: 80px 40px;
     width: calc(100% - 80px);
+    margin: 80px 40px;
   }
 }
