@@ -1,10 +1,10 @@
 .footer__dots {
+  height: 460px;
+  margin-left: -230px;
+  margin-top: -245px;
   position: absolute;
   top: 50%;
   width: 490px;
-  height: 460px;
-  margin-top: -245px;
-  margin-left: -230px;
 }
 
 @media screen and (max-width: 360px) {

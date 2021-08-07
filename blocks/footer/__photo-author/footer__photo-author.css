@@ -1,10 +1,10 @@
 .footer__photo-author {
+  border-radius: 50%;
+  box-shadow: 0 0 20px gray;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
   position: absolute;
   top: 27%;
   width: 150px;
-  height: 150px;
-  object-position: center;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 20px gray;
 }
